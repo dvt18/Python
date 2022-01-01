@@ -23,3 +23,5 @@ for i in people:
         print(f"Added {i} to the flight successfully. ")
     else:
         print(f" SORRY!! No available seats for {i}. ")
+
+# changes //
