@@ -16,7 +16,7 @@ class Flight():
 flight = Flight(3)
 
 
-people = ["Dushyant", "Kunal", "Amaan", "Bharat"]
+people = ["Dushyant", "Kunal", "Amaan", "Bharat","suyesh"]
 for i in people:
     success= flight.add_passenger(i)
     if True:
