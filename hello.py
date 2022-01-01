@@ -4,8 +4,8 @@ class Flight():
         self.passengers=[]
 
     def add_passenger(self, name):
-        if not self.open_seats:
-            return False
+        if not self.open_seats():
+            return False 
         self.passengers.append(name)    
         return True
 
@@ -19,7 +19,7 @@ flight = Flight(3)
 people = ["Dushyant", "Kunal", "Amaan", "Bharat","mahesh"]
 for i in people:
     success= flight.add_passenger(i)
-    if True:
-        pass
-    
-    #edited directly from github
+    if success:
+        print(f"Added {i} to the flight successfully. ")
+    else:
+        print(f" SORRY!! No available seats for {i}. ")
