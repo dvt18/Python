@@ -21,3 +21,5 @@ for i in people:
     success= flight.add_passenger(i)
     if True:
         pass
+    
+    #edited directly fro github
